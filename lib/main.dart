@@ -49,7 +49,7 @@ class _aboutMeState extends State<aboutMe> {
           children: [
             Center(
               child: CircleAvatar(
-                backgroundImage: AssetImage('assets/image 2.jpeg'),
+                backgroundImage: AssetImage('assets/Avatar.jpeg'),
                 radius: 50.0,
               ),
             ),
@@ -84,7 +84,7 @@ class _aboutMeState extends State<aboutMe> {
             ),
             Container(
               child: Text(
-                'November 27,2001',
+                'November 27th',
                 style: GoogleFonts.inconsolata(
                     color: Colors.purple[200], fontSize: 25.0),
               ),
@@ -95,7 +95,7 @@ class _aboutMeState extends State<aboutMe> {
             Row(
               children: [
                 Icon(
-                  Icons.phone_android_rounded,
+                  Icons.email,
                   color: Colors.grey[400],
                 ),
                 SizedBox(
@@ -103,10 +103,10 @@ class _aboutMeState extends State<aboutMe> {
                 ),
                 Container(
                   child: Text(
-                    '9082547007',
+                    'harshvardhankadam89@gmail.com',
                     style: GoogleFonts.inconsolata(
                         color: Colors.purple[200],
-                        letterSpacing: 1.0,
+                        letterSpacing: 0.5,
                         fontSize: 20.0),
                   ),
                 ),
