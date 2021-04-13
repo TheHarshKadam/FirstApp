@@ -1,4 +1,3 @@
 # FirstApp
-I created my first ever app using Dart code on Flutter in VSC
-It includes basic beginner function
-It has only one stateless Widget Screen...
+I created my first ever app using Dart code on Flutter in VSC which include all the basic functions as well as Stateful Widget helpful for flutter beginners
+
